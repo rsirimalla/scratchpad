@@ -25,3 +25,9 @@ line_length = sqrt((pt1.x-pt2.x)**2 + (pt1.y-pt2.y)**2)
 # A data class comes with basic functionality already implemented. 
 # For instance, you can instantiate, print, 
 # and compare data class instances straight out of the box
+from dataclass import dataclass
+@dataclass
+class DataClassCard:
+  rank: str
+  suit: str
+
